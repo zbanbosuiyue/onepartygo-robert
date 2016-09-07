@@ -1,0 +1,7 @@
+.ot-reports-page .helper { font-size:0.8em; color:#999; font-style:italic; }
+.ot-reports-page .ui-datepicker-trigger { height:27.5px; vertical-align:top; margin:1px 0 0 -3px; border:1px solid #ccc; }
+
+.ot-reports-page .sub-report { padding-top:3em; }
+.ot-reports-page .sub-report:first-child { padding-top:0; }
+.ot-reports-page .sub-report h3 { margin:0 0 0.5em; text-decoration:underline; }
+.ot-reports-page .sub-report tfoot .total { color:#080; font-weight:700; background-color:#efe; text-align:center; border:2px solid #080; }

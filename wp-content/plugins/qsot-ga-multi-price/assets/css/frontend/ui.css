@@ -1,0 +1,4 @@
+.ticket-type-wrap .name { margin-right:0.6em; }
+.ticket-type-wrap .name:after { content:"-"; margin-left:0.6em; }
+.step-one.ticket-selection-section { padding:1em; }
+.ticket-form select { border:1px solid #888; }

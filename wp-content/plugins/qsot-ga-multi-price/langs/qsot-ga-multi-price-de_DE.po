@@ -1,0 +1,435 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qsot-ga-multi-price\n"
+"POT-Creation-Date: 2016-06-16 06:40-0800\n"
+"PO-Revision-Date: 2016-06-16 06:40-0800\n"
+"Last-Translator: \n"
+"Language-Team: Quadshot\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../qsot-ga-multi-price.php:49
+msgid "OpenTickets - General Admission Multiple Pricing (GAMP)"
+msgstr "OpenTickets - General Admission Mehrere Preise (GAMP)"
+
+#: ../qsot-ga-multi-price.php:154
+#, php-format
+msgid ""
+"%s The %s plugin <strong>requires</strong> that %s be at least at version "
+"%s. You currently have version %s. Please upgrade %s to finish activating "
+"all functionality of the %s plugin."
+msgstr ""
+"%s %s Plugin <strong>benötigt,</strong> dass %s mindestens als Version %s "
+"installiert ist. Derzeit ist Version %s installiert. Aktualisiere bitte auf "
+"Version %s, damit alle Funktionen des Plugin %s aktiviert werden."
+
+#: ../qsot-ga-multi-price.php:183
+#, php-format
+msgid ""
+"%s The %s plugin <strong>requires</strong> that %s be activated in order to "
+"perform most vital functions; therefore, the plugin has not initialized any "
+"of its functionality. To enable the features of this plugin, simply install "
+"and activate %s."
+msgstr ""
+"%s %s Plugin <strong>erfordert,</strong> dass %s aktiviert ist, um die "
+"Hauptaufgaben ausführen zu können; Daher konnten die Funktionalitäten des "
+"Plugins nicht initialisiert werden. Um die Funktionen des Plugins zu "
+"aktivieren, installiere und aktiviere einfach %s."
+
+#: ../qsot-ga-multi-price.php:209
+#, php-format
+msgid ""
+"There are one or more plugins active that have know conflicts with %s. "
+"Please deactivate the following plugins, in order to ensure that the %s "
+"plugin functions properly: <strong><em>%s</em></strong>"
+msgstr ""
+"Mit einem oder mehreren installierten Plugin/s bestehen bekannte "
+"Kompatibilitätsprobleme mit %s. Bitte deaktiviere das/die folgende/n Plugin/"
+"s, um sicherzustellen, dass das %s Plugin ordnugsgemäß funktioniert: "
+"<strong> <em>%s</em></strong>"
+
+#: ../multi-price/gamp-area-type.class.php:22
+#: ../multi-price/price-struct.class.php:22
+#, php-format
+msgid "There can only be one instance of the %s object at a time."
+msgstr "Es kann nur eine Instanz des Objekts %s gleichzeitig laufen."
+
+#: ../multi-price/gamp-area-type.class.php:46
+msgid "General Admission Multi-Price"
+msgstr "General Admission [allgemeiner Einlass] Mehrere Preise"
+
+#: ../multi-price/gamp-area-type.class.php:154
+#: ../multi-price/gamp-area-type.class.php:155
+#: ../multi-price/gamp-area-type.class.php:161
+msgid ""
+"There are currently <span class=\"available\"></span> <span rel=\"tt\"></"
+"span> available."
+msgstr ""
+"Es sind derzeit noch <span class=\"available\"></span> <span rel=\"tt\"></"
+"span> verfügbar."
+
+#: ../multi-price/gamp-area-type.class.php:160
+msgid ""
+"There are currently <span class=\"available\"></span> more <span rel=\"tt"
+"\"></span> available."
+msgstr ""
+"Es sind derzeit <span class=\"available\"></span> des Weiteren <span rel=\"tt"
+"\"></span> verfügbar."
+
+#: ../multi-price/gamp-area-type.class.php:164
+msgid "We're sorry. There are currently no tickets available."
+msgstr "Es tut uns Leid. Es sind derzeit leider keine Tickets mehr verfügbar."
+
+#: ../multi-price/gamp-area-type.class.php:165
+#: ../templates/post-content/gamp-event-area.php:135
+msgid "We are sorry. This event is sold out!"
+msgstr "Es tut uns Leid. Diese Veranstaltung ist ausverkauft."
+
+#: ../multi-price/gamp-area-type.class.php:166
+msgid "<h1>One Moment Please...</h1>"
+msgstr "<h1>Einen Moment bitte...</h1>"
+
+#: ../multi-price/gamp-area-type.class.php:208
+msgid "prices"
+msgstr "Preise"
+
+#: ../multi-price/gamp-area-type.class.php:209
+msgid "price"
+msgstr "Preis"
+
+#: ../multi-price/gamp-area-type.class.php:422
+msgid "GAMP - Attributes"
+msgstr "GAMP - Eigenschaften"
+
+#: ../multi-price/gamp-area-type.class.php:450
+msgid "Capacity"
+msgstr "Stückzahl"
+
+#: ../multi-price/gamp-area-type.class.php:455
+msgid "Setup Available Pricing"
+msgstr "Verfügbare Preise einstellen"
+
+#: ../multi-price/gamp-area-type.class.php:461
+msgid "Event Area Image"
+msgstr "Veranstaltungsbereichs-Bild"
+
+#: ../multi-price/gamp-area-type.class.php:465
+msgid "Select Image"
+msgstr "Wähle Bild"
+
+#: ../multi-price/gamp-area-type.class.php:466
+msgid "remove"
+msgstr "entfernen"
+
+#: ../multi-price/gamp-area-type.class.php:600
+#, php-format
+msgid "%d pricing structure"
+msgid_plural "%d pricing structures"
+msgstr[0] "%d Preisstruktur"
+msgstr[1] "%d Preisstrukturen"
+
+#: ../multi-price/gamp-area-type.class.php:614
+#: ../multi-price/gamp-area-type.class.php:622
+#: ../multi-price/gamp-area-type.class.php:723
+#: ../multi-price/gamp-area-type.class.php:773
+#: ../multi-price/gamp-area-type.class.php:834
+msgid "Could not find that event."
+msgstr "Diese Veranstaltung konnte nicht gefunden werden."
+
+#: ../multi-price/gamp-area-type.class.php:716
+#: ../multi-price/gamp-area-type.class.php:827
+#: ../multi-price/gamp-area-type.class.php:861
+#: ../multi-price/gamp-area-type.class.php:997
+msgid "The quantity must be greater than zero."
+msgstr "Die Menge muss größer als Null sein."
+
+#: ../multi-price/gamp-area-type.class.php:732
+#: ../multi-price/gamp-area-type.class.php:843
+#: ../multi-price/gamp-area-type.class.php:1006
+msgid "You must select a valid ticket price to reserve."
+msgstr "Du musst eine gültige Kartenoption auswählen."
+
+#: ../multi-price/gamp-area-type.class.php:755
+#: ../multi-price/gamp-area-type.class.php:806
+#: ../multi-price/gamp-area-type.class.php:878
+msgid "Updated your reservations successfully."
+msgstr "Aktualisierung der Auswahl erfolgreich."
+
+#: ../multi-price/gamp-area-type.class.php:762
+#: ../multi-price/gamp-area-type.class.php:812
+#: ../multi-price/gamp-area-type.class.php:884
+msgid "Could not update your reservations."
+msgstr "Konnte deine Auswahl nicht aktualisieren."
+
+#: ../multi-price/gamp-area-type.class.php:782
+msgid "You do not have any tickets of that type reserved."
+msgstr "Du hast keine Karten dieser Art ausgewählt."
+
+#: ../multi-price/gamp-area-type.class.php:906
+#, fuzzy
+msgid "D, F jS, Y h:ia"
+msgstr "d.m.Y"
+
+#: ../multi-price/gamp-area-type.class.php:976
+msgid "Could not find the new event."
+msgstr "Die neue Veranstaltung konnte nicht gefunden werden."
+
+#: ../multi-price/gamp-area-type.class.php:983
+msgid "Could not find the new event's event area."
+msgstr ""
+"Der neue Veranstaltungsbereich der Veranstaltung konnte nicht gefunden "
+"werden."
+
+#: ../multi-price/gamp-area-type.class.php:991
+msgid "Could not find that order item on the order."
+msgstr "Dieser Artikel konnte in der Bestellung nicht gefunden werden."
+
+#: ../multi-price/gamp-area-type.class.php:1012
+msgid "Could not add those tickets, because the ticket product was invalid."
+msgstr ""
+"Diese Karte(n) konnte(n) nicht hinzugefügt werden, da die Kartenoption nicht "
+"gültig ist."
+
+#: ../multi-price/price-struct.class.php:70
+#: ../multi-price/price-struct.class.php:79
+msgid "Could not find that pricing structure."
+msgstr "Diese Preisstruktur konnte nicht gefunden werden."
+
+#: ../multi-price/price-struct.class.php:288
+#, php-format
+msgid "\"%s\" (%s)"
+msgstr ""
+
+#: ../multi-price/price-struct.class.php:409
+msgid "Pricing Structure:"
+msgstr "Preisstruktur:"
+
+#: ../multi-price/price-struct.class.php:411
+#: ../templates/admin/event-area/gamp/struct-li.php:5
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: ../multi-price/price-struct.class.php:416
+#: ../multi-price/price-struct.class.php:422
+msgid "- None -"
+msgstr "- keine Auswahl -"
+
+#: ../multi-price/price-struct.class.php:425
+msgid "OK"
+msgstr "OK"
+
+#: ../multi-price/price-struct.class.php:426
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: ../templates/admin/event-area/gamp/shell.php:4
+msgid "Price Structures"
+msgstr "Preisstrukturen"
+
+#: ../templates/admin/event-area/gamp/shell.php:7
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: ../templates/admin/event-area/gamp/shell.php:10
+msgid "Edit Structure"
+msgstr "Struktur bearbeiten"
+
+#: ../templates/admin/event-area/gamp/shell.php:12
+msgid "Structure Name"
+msgstr "Struktur-Name"
+
+#: ../templates/admin/event-area/gamp/shell.php:17
+msgid "Use these Prices"
+msgstr "Benutze diese Preise"
+
+#: ../templates/admin/event-area/gamp/shell.php:21
+msgid "Do not use these Prices"
+msgstr "Benutze nicht diese Preise"
+
+#: ../templates/admin/event-area/gamp/shell.php:26
+msgid "Done Editing"
+msgstr "Bearbeiten beendet"
+
+#: ../templates/admin/event-area/gamp/struct-li.php:6
+msgid "Remove"
+msgstr "Entfernen"
+
+#: ../templates/admin/ticket-selection/gamp/actions-add.php:3
+#: ../templates/admin/ticket-selection/gamp/actions-change.php:3
+msgid "Different Event"
+msgstr "Andere Veranstaltung"
+
+#: ../templates/admin/ticket-selection/gamp/actions-change.php:4
+msgid "Use This Event"
+msgstr "Verwende diese Veranstaltung"
+
+#: ../templates/admin/ticket-selection/gamp/info.php:3
+msgid "Event:"
+msgstr "Veranstaltung:"
+
+#: ../templates/admin/ticket-selection/gamp/info.php:4
+msgid "Date:"
+msgstr "Datum:"
+
+#: ../templates/admin/ticket-selection/gamp/info.php:6
+msgid "Capacity:"
+msgstr "Stückzahl:"
+
+#: ../templates/admin/ticket-selection/gamp/info.php:7
+msgid "Available:"
+msgstr "Verfügbar:"
+
+#: ../templates/admin/ticket-selection/gamp/inner-add.php:5
+msgid "Currently Owned"
+msgstr "Du besitzt derzeit:"
+
+#: ../templates/admin/ticket-selection/gamp/inner-add.php:10
+msgid "Select Tickets"
+msgstr "Wähle die gewünschten Kartenoptionen"
+
+#: ../templates/admin/ticket-selection/gamp/inner-add.php:14
+msgid "Add Tickets"
+msgstr "Karte(n) hinzufügen"
+
+#: ../templates/admin/ticket-selection/gamp/owned-none.php:2
+msgid "No reservations currently"
+msgstr "Momentan keine Auswahl"
+
+#: ../templates/event-area/gamp/one-multi-title.php:2
+#, php-format
+msgid "%sStep 1%s: Select the price and quantity:"
+msgstr "%sSchritt 1%s: Wähle die gewünschte Kartenoption(en) und Stückzahl"
+
+#: ../templates/event-area/gamp/one-single-title.php:2
+#, php-format
+msgid "%sStep 1%s: How Many?"
+msgstr "%sSchritt 1%s: Wähle die gewünschte Kartenoption(en) und Stückzahl"
+
+#: ../templates/event-area/gamp/owns-wrap.php:4
+#: ../templates/event-area/gamp/owns-wrap.php:9
+#: ../templates/post-content/gamp-event-area.php:77
+msgid "Your current reservations are:"
+msgstr "Deine momentane Auswahl ist:"
+
+#: ../templates/event-area/gamp/owns-wrap.php:11
+#: ../templates/post-content/gamp-event-area.php:97
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: ../templates/event-area/gamp/owns.php:4
+#: ../templates/event-area/gamp/owns.php:10
+msgid "X"
+msgstr "X"
+
+#: ../templates/event-area/gamp/ticket-selection.php:9
+#: ../templates/post-content/gamp-event-area.php:100
+msgid "Reserve some tickets:"
+msgstr "Wähle die gewünschte Kartenoption:"
+
+#: ../templates/event-area/gamp/ticket-selection.php:13
+#: ../templates/post-content/gamp-event-area.php:123
+msgid "Reserve"
+msgstr "Auswählen"
+
+#: ../templates/event-area/gamp/ticket-selection.php:17
+#: ../templates/post-content/gamp-event-area.php:129
+msgid "Proceed to Cart"
+msgstr "zum Warenkorb hinzufügen"
+
+#: ../templates/event-area/gamp/two-multi-title.php:2
+#, php-format
+msgid "%sStep 2%s: Adjust or Review:"
+msgstr ""
+"%sSchritt 2%s: Füge weitere Kartenoption(en) hinzu und überprüfe deine "
+"Auswahl"
+
+#: ../templates/event-area/gamp/two-single-title.php:2
+#, php-format
+msgid "%sStep 2%s: Adjust or Review your tickets:"
+msgstr ""
+"%sSchritt 2%s: Füge weitere Kartenoption(en) hinzu und überprüfe deine "
+"Auswahl"
+
+#: ../templates/post-content/gamp-event-area.php:13
+msgid ""
+"For a better experience, certain features of javascript area required. "
+"Currently you either do not have these features, or you do not have them "
+"enabled. Despite this, you can still purchase your tickets, using 2 simple "
+"steps."
+msgstr ""
+"Für eine angenehmere Darstellung wird JavaScript benötigt. Momentan fehlen "
+"JavaScript-Funktionen oder JavaScript ist komplett deaktiviert. Dennoch ist "
+"das Kaufen von Karten möglich."
+
+#: ../templates/post-content/gamp-event-area.php:16
+msgid ""
+"<strong>STEP 1:</strong> Below, select the type of ticket you wish to "
+"purchase, enter the number of tickets you wish to purchase, then click <span "
+"class=\"button-name\">Reserve Tickets</span>."
+msgstr ""
+"<strong>SCHRITT 1:</strong> Wähle die gewünschte Kartenoption(en) und "
+"Stückzahl. Drücke anschließend  <span class=\"button-name\">Karte(n) "
+"hinzufügen</span>."
+
+#: ../templates/post-content/gamp-event-area.php:19
+msgid ""
+"<strong>STEP 2:</strong> Finally, once you have successfully Reserved your "
+"Tickets, click <span class=\"button-name\">Proceed to Cart</span> to "
+"complete your order."
+msgstr ""
+"<strong>SCHRITT 2:</strong> Füge weitere Kartenoption(en) hinzu und "
+"überprüfe deine Auswahl, drück <span class=\"button-name\">zum Warenkorb "
+"hinzufügen</span> um mit der Bestellung fortzufahren."
+
+#: ../templates/post-content/gamp-event-area.php:38
+msgid "Successfully removed your reservations."
+msgstr "Auswahl erfolgreich gelöscht."
+
+#: ../templates/post-content/gamp-event-area.php:49
+#, php-format
+msgid "%sSTEP 2%s: Adjust or Review your tickets:"
+msgstr ""
+"%sSchritt 2%s: Füge weitere Kartenoption(en) hinzu und überprüfe deine "
+"Auswahl"
+
+#: ../templates/post-content/gamp-event-area.php:51
+#, php-format
+msgid "%sSTEP 2%s: Adjust or Review:"
+msgstr ""
+"%sSchritt 2%s: Füge weitere Kartenoption(en) hinzu und überprüfe deine "
+"Auswahl"
+
+#: ../templates/post-content/gamp-event-area.php:55
+#, php-format
+msgid "%sSTEP 1%s: How many?"
+msgstr "%sSchritt 1%s: Wähle die gewünschte Kartenoption(en) und Stückzahl"
+
+#: ../templates/post-content/gamp-event-area.php:57
+#, php-format
+msgid "%sSTEP 1%s: Select the price and quantity:"
+msgstr "%sSchritt 1%s: Wähle die gewünschte Kartenoption(en) und Stückzahl"
+
+#: ../templates/post-content/gamp-event-area.php:66
+#, php-format
+msgid "Currently, there are %s%s%s tickets available for purchase."
+msgstr "Momentan sind noch folgende Karten verfügbar: %s%s%s"
+
+#: ../templates/post-content/gamp-event-area.php:72
+msgid "Currently, there are tickets available for purchase."
+msgstr "Momentan sind noch Karten verfügbar."
+
+#: ../templates/post-content/gamp-event-area.php:138
+msgid ""
+"We are sorry. There are currently no tickets available for this event. Check "
+"back soon!"
+msgstr ""
+"Es tut uns leid. Momentan sind für diese Veranstaltung keine Karten "
+"verfügbar. Schaue in der nächsten Zeit noch einmal vorbei."

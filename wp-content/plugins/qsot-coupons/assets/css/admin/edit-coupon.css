@@ -1,0 +1,29 @@
+.panel-wrap .woocommerce_options_panel .form-field { padding:5px 20px 5px 162px !important; margin:9px 0; }
+
+.form-field .limitation { padding-bottom:2px; position:relative; }
+.form-field .limitation .remove { position:absolute; right:-10px; top:0; bottom:2px; background-color:#e8e8e8; border:1px solid #800; color:#800; padding:0 10px; line-height:24px; cursor:pointer; display:none; }
+.form-field .limitation .remove:hover { color:#c00; border-color:#c00; }
+.form-field .limitation .qty { width:25%; }
+.form-field .limitation .usage { width:25%; }
+.form-field .limitation:hover .remove { display:block; }
+.form-field .limitation:hover input { border-color:#555; }
+.form-field .limitation:hover .select2-choice { border-color:#555; }
+
+.form-field .button.add-limit { margin:0 8px 8px 0 !important; }
+.form-field .limit-header { border-bottom:1px solid #aaa; margin-bottom:3px; }
+.form-field .limit-header .col-head { font-style:italic; font-weight:700; display:block; float:left; padding:0 5px; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -ms-box-sizing:border-box; box-sizing:border-box; }
+.form-field .limit-header .event { width:50%; }
+.form-field .limit-header .qty { width:25%; }
+.form-field .limit-header .usage { width:25%; }
+
+/* product page */
+#woocommerce-product-data ul.coupon_data_tabs.wc-tabs { float:left; clear:both; width:100%; }
+#woocommerce-product-data ul.wc-tabs.coupon_data_tabs li { float:left; clear:none; }
+#woocommerce-product-data ul.wc-tabs.coupon_data_tabs:after { height:auto; }
+#woocommerce-product-data .name-format-field { clear:both; padding:0 1em 10px 162px; font-style:italic; }
+#woocommerce-product-data .name-format-field code { font-size:11px; font-style:normal; margin-bottom:5px; display:inline-block; }
+#woocommerce-product-data .name-format-field code b { color:#000; }
+#woocommerce-product-data .name-format-field em code { font-style:italic; }
+
+#woocommerce-product-data .show_if_create_coupon { display:none; }
+#woocommerce-product-data .hide_if_create_coupon { display:block; }

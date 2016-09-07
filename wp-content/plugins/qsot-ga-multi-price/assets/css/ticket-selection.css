@@ -1,0 +1,4 @@
+.display-event .ticket-form input.quantity { max-width:60px; }
+.display-event .ticket-form h4 { margin:0; }
+.display-event .ticket-form .section { padding-top:0.7em; }
+.display-event .ticket-form .section:first-child { padding-top:0; }

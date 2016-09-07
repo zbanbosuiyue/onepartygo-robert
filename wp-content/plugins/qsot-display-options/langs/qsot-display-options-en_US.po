@@ -1,0 +1,452 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: QSOT Display Options 2.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-06-16 06:29-0800\n"
+"PO-Revision-Date: 2016-06-16 06:29-0800\n"
+"Last-Translator: \n"
+"Language-Team: Quadshot <info@opentickets.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../qsot-display-options.php:49 ../qsot-display-options.php:314
+msgid "OpenTickets - Display Options"
+msgstr ""
+
+#: ../qsot-display-options.php:158
+#, php-format
+msgid ""
+"<u><strong>%s</strong></u><br/> The %s plugin <strong>requires</strong> that "
+"%s be at least at version %s. You currently have version %s. Please upgrade "
+"%s to finish activating all functionality of the %s plugin."
+msgstr ""
+
+#: ../qsot-display-options.php:187
+#, php-format
+msgid ""
+"<u><strong>%s</strong></u><br/> The %s plugin <strong>requires</strong> that "
+"%s be activated in order to perform most vital functions; therefore, the "
+"plugin has not initialized any of its functionality. To enable the features "
+"of this plugin, simply install and activate %s."
+msgstr ""
+
+#: ../qsot-display-options.php:213
+#, php-format
+msgid ""
+"There are one or more plugins active that have know conflicts with %s. "
+"Please deactivate the following plugins, in order to ensure that the %s "
+"plugin functions properly: <strong><em>%s</em></strong>"
+msgstr ""
+
+#: ../display-options/admin.class.php:53
+msgid "Insert Shortcode"
+msgstr ""
+
+#: ../display-options/admin.class.php:54
+msgid "OpenTickets Shortcodes"
+msgstr ""
+
+#: ../display-options/admin.class.php:170
+msgid "Edit the parent event"
+msgstr ""
+
+#: ../display-options/admin.class.php:179
+#, php-format
+msgid ""
+"The %s extension has detected that it needs to update your event data. Would "
+"you like to %s?"
+msgstr ""
+
+#: ../display-options/admin.class.php:181
+msgid "Do it now"
+msgstr ""
+
+#: ../display-options/admin.class.php:183
+msgid "Affected Parent Events"
+msgstr ""
+
+#: ../display-options/admin.class.php:197
+msgid "Update Event Data"
+msgstr ""
+
+#: ../display-options/admin.class.php:201
+#, php-format
+msgid ""
+"The %s requires an event data update. Clicking this button performs that "
+"update."
+msgstr ""
+
+#: ../display-options/admin.class.php:213
+msgid "Updated all events for Display Options compatibility."
+msgstr ""
+
+#: ../display-options/admin.class.php:220
+msgid ""
+"One or more events could not be updated for Display Options compatibility."
+msgstr ""
+
+#: ../display-options/admin.class.php:325
+msgid "Events in Shop"
+msgstr ""
+
+#: ../display-options/admin.class.php:335
+msgid "Show Events in Shop"
+msgstr ""
+
+#: ../display-options/admin.class.php:336
+msgid ""
+"Yes, not only show events on the calendar, but they also show them in the "
+"shop, as purchaseable products."
+msgstr ""
+
+#: ../display-options/admin.class.php:346
+msgid "Hide Past Events - Shop"
+msgstr ""
+
+#: ../display-options/admin.class.php:347
+msgid ""
+"Yes, when showing events in the shop, hide events that have already passed."
+msgstr ""
+
+#: ../display-options/ajax.class.php:45
+msgid "Sorry your request could not be processed. n"
+msgstr ""
+
+#: ../display-options/ajax.class.php:48
+msgid "Sorry your request could not be processed. v"
+msgstr ""
+
+#: ../display-options/ajax.class.php:55
+msgid "Sorry your request could not be processed. f"
+msgstr ""
+
+#: ../display-options/ajax.class.php:233
+#, php-format
+msgid "%s (%s)"
+msgstr ""
+
+#: ../display-options/core.class.php:82
+msgid "Shortcode"
+msgstr ""
+
+#: ../display-options/core.class.php:96
+msgid "There are no shortcodes to display."
+msgstr ""
+
+#: ../display-options/core.class.php:111
+msgid "Close"
+msgstr ""
+
+#: ../display-options/core.class.php:112
+msgid "Find Events"
+msgstr ""
+
+#: ../display-options/core.class.php:117
+msgid "Search..."
+msgstr ""
+
+#: ../display-options/core.class.php:118
+msgid "Search"
+msgstr ""
+
+#: ../display-options/core.class.php:120
+msgid "Use the search box above to find the event(s) you want to feature."
+msgstr ""
+
+#: ../display-options/core.class.php:124
+msgid "Use Selected Events"
+msgstr ""
+
+#: ../display-options/core.class.php:189
+msgid "Please select a type of ticket to purchase."
+msgstr ""
+
+#: ../display-options/core.class.php:229
+msgid "You cannot add tickets for that event."
+msgstr ""
+
+#: ../display-options/core.class.php:237
+msgid "Could not determine the price for that event."
+msgstr ""
+
+#: ../display-options/core.class.php:252
+#, php-format
+msgid "Successfully added a %s ticket for %s to your cart. %s"
+msgstr ""
+
+#: ../display-options/core.class.php:255
+msgid "View Cart"
+msgstr ""
+
+#: ../display-options/core.class.php:262
+#, php-format
+msgid "Could not add a %s ticket for %s to your cart."
+msgstr ""
+
+#: ../display-options/shortcodes.class.php:132
+msgid "Shortcodes"
+msgstr ""
+
+#: ../display-options/product-types/event-product.php:34
+msgid "Select Options"
+msgstr ""
+
+#: ../display-options/product-types/event-product.php:34
+#: ../display-options/product-types/event-product.php:35
+msgid "View Event"
+msgstr ""
+
+#: ../display-options/product-types/event-product.php:35
+msgid "Add to Cart"
+msgstr ""
+
+#: ../display-options/product-types/event-product.php:105
+#: ../display-options/product-types/event-product.php:108
+#, php-format
+msgctxt "Price range: from-to"
+msgid "%1$s&ndash;%2$s"
+msgstr ""
+
+#: ../display-options/product-types/event-product.php:117
+msgid "Free!"
+msgstr ""
+
+#: ../display-options/settings/display-options.php:22
+msgid "Display Options"
+msgstr ""
+
+#: ../display-options/shortcodes/featured-event.shortcode.php:23
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:25
+#: ../display-options/widgets/featured-event.widget.php:40
+#: ../display-options/widgets/upcoming-events.widget.php:30
+msgid "F jS, Y @ h:ia"
+msgstr ""
+
+#: ../display-options/shortcodes/featured-event.shortcode.php:24
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:26
+#: ../display-options/widgets/featured-event.widget.php:41
+#: ../display-options/widgets/upcoming-events.widget.php:31
+msgid "h:ia"
+msgstr ""
+
+#: ../display-options/shortcodes/featured-event.shortcode.php:113
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:111
+msgid "List Style"
+msgstr ""
+
+#: ../display-options/shortcodes/featured-event.shortcode.php:121
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:120
+msgid "Title"
+msgstr ""
+
+#: ../display-options/shortcodes/featured-event.shortcode.php:126
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:125
+msgid "The title displayed at the top of the widget."
+msgstr ""
+
+#: ../display-options/shortcodes/featured-event.shortcode.php:132
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:188
+msgid "Display Layout"
+msgstr ""
+
+#: ../display-options/shortcodes/featured-event.shortcode.php:140
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:174
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:196
+msgid "The template to use for the layout of the events in the widget."
+msgstr ""
+
+#: ../display-options/shortcodes/featured-event.shortcode.php:145
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:131
+msgid "Events to Show"
+msgstr ""
+
+#: ../display-options/shortcodes/featured-event.shortcode.php:147
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:133
+msgid "Add Events"
+msgstr ""
+
+#: ../display-options/shortcodes/featured-event.shortcode.php:161
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:200
+msgid "Show Event Image"
+msgstr ""
+
+#: ../display-options/shortcodes/featured-event.shortcode.php:168
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:207
+msgid "Yes, show the featured image of the event."
+msgstr ""
+
+#: ../display-options/shortcodes/featured-event.shortcode.php:170
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:209
+msgid ""
+"When checked, the featured image of the event (or parent event) will be "
+"displayed in the output."
+msgstr ""
+
+#: ../display-options/shortcodes/featured-event.shortcode.php:174
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:213
+msgid "Date Format"
+msgstr ""
+
+#: ../display-options/shortcodes/featured-event.shortcode.php:179
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:218
+msgid ""
+"The PHP date format to use when rendering the start (and maybe end) dates of "
+"the event."
+msgstr ""
+
+#: ../display-options/shortcodes/featured-event.shortcode.php:183
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:222
+msgid "Time Format"
+msgstr ""
+
+#: ../display-options/shortcodes/featured-event.shortcode.php:188
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:227
+msgid ""
+"The PHP time format to use when rendering the ending time, when events start "
+"and end on the same day."
+msgstr ""
+
+#: ../display-options/shortcodes/featured-event.shortcode.php:192
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:231
+msgid "Event Meta and Order"
+msgstr ""
+
+#: ../display-options/shortcodes/featured-event.shortcode.php:197
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:236
+msgid ""
+"Comma separated list of event meta to display, and in what order, for \"list"
+"\" layout only. Values: "
+msgstr ""
+
+#: ../display-options/shortcodes/featured-event.shortcode.php:250
+msgid "Featured Event Shortcode"
+msgstr ""
+
+#: ../display-options/shortcodes/featured-event.shortcode.php:251
+msgid ""
+"The shortcode \"tag\" that is used to display a (or a list of) featured event"
+"(s)."
+msgstr ""
+
+#: ../display-options/shortcodes/featured-event.shortcode.php:252
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:364
+msgid ""
+"Changes the shortcode tag, in case you have a conflicting tag installed "
+"already."
+msgstr ""
+
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:112
+msgid "Table Style"
+msgstr ""
+
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:144
+msgid ""
+"Select the parent event to display child showings from. If this list is "
+"blank, we will attempt to automatically determine the proper list to display."
+msgstr ""
+
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:150
+msgid "Date Range"
+msgstr ""
+
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:151
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:156
+msgid "mm-dd-yy"
+msgstr ""
+
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:160
+msgid "The date range from which to show posts from and to."
+msgstr ""
+
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:166
+msgid "Display Order"
+msgstr ""
+
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:170
+msgid "Forward (ascending)"
+msgstr ""
+
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:171
+msgid "Backward (descending)"
+msgstr ""
+
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:172
+msgid "Random"
+msgstr ""
+
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:179
+msgid "Number to Show"
+msgstr ""
+
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:184
+msgid "The number of events to show in the widget."
+msgstr ""
+
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:240
+msgid "Table Columns"
+msgstr ""
+
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:245
+msgid ""
+"Comma separated list of event meta columns to display, and in what order, "
+"for \"table\" layout only. Values: "
+msgstr ""
+
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:362
+msgid "Upcoming Events Shortcode"
+msgstr ""
+
+#: ../display-options/shortcodes/upcoming-events.shortcode.php:363
+msgid "The shortcode \"tag\" that is used to display the upcoming events."
+msgstr ""
+
+#: ../display-options/widgets/featured-event.widget.php:36
+msgid "Featured Event"
+msgstr ""
+
+#: ../display-options/widgets/upcoming-events.widget.php:26
+msgid "Upcoming Events"
+msgstr ""
+
+#: ../templates/shortcodes/featured-event.php:43
+#: ../templates/shortcodes/upcoming-events.php:43
+#: ../templates/shortcodes/upcoming-events.table.php:51
+msgid "to"
+msgstr ""
+
+#: ../templates/shortcodes/featured-event.php:54
+#: ../templates/shortcodes/upcoming-events.php:54
+#: ../templates/shortcodes/upcoming-events.table.php:72
+msgid "Available"
+msgstr ""
+
+#: ../templates/shortcodes/featured-event.php:79
+#: ../templates/shortcodes/upcoming-events.php:75
+#: ../templates/shortcodes/upcoming-events.table.php:90
+msgid "Sorry. No events to display."
+msgstr ""
+
+#: ../templates/shortcodes/upcoming-events.table.php:17
+msgid "Date"
+msgstr ""
+
+#: ../templates/shortcodes/upcoming-events.table.php:18
+msgid "Event"
+msgstr ""
+
+#: ../templates/shortcodes/upcoming-events.table.php:19
+msgid "Price"
+msgstr ""
+
+#: ../templates/shortcodes/upcoming-events.table.php:20
+msgid "Availability"
+msgstr ""

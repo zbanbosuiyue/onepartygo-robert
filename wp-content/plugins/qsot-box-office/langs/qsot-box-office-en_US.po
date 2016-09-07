@@ -1,0 +1,368 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenTickets Box Office\n"
+"POT-Creation-Date: 2015-12-17 13:32-0800\n"
+"PO-Revision-Date: 2015-12-17 13:33-0800\n"
+"Last-Translator: \n"
+"Language-Team: quadshot <info@quadshot.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../qsot-box-office.php:146
+#, php-format
+msgid ""
+"<u><strong>%s</strong></u><br/> The %s plugin <strong>requires</strong> that "
+"%s be at least at version %s. You currently have version %s. Please upgrade "
+"%s to finish activating all functionality of the %s plugin."
+msgstr ""
+
+#: ../qsot-box-office.php:175
+#, php-format
+msgid ""
+"<u><strong>%s</strong></u><br/> The %s plugin <strong>requires</strong> that "
+"%s be activated in order to perform most vital functions; therefore, the "
+"plugin has not initialized any of its functionality. To enable the features "
+"of this plugin, simply install and activate %s."
+msgstr ""
+
+#: ../qsot-box-office.php:201
+#, php-format
+msgid ""
+"There are one or more plugins active that have know conflicts with %s. "
+"Please deactivate the following plugins, in order to ensure that the %s "
+"plugin functions properly: <strong><em>%s</em></strong>"
+msgstr ""
+
+#: ../box-office/admin.class.php:37
+msgid "Payments"
+msgstr ""
+
+#: ../box-office/admin.class.php:69
+msgid "Loading..."
+msgstr ""
+
+#: ../box-office/admin.class.php:88
+msgid "Loading. Please Wait..."
+msgstr ""
+
+#: ../box-office/admin.class.php:94
+msgid "This order still needs a payment."
+msgstr ""
+
+#: ../box-office/admin.class.php:98
+#, php-format
+msgid "The last payment was received: %s"
+msgstr ""
+
+#: ../box-office/admin.class.php:98
+msgid "F j, Y g:ia"
+msgstr ""
+
+#: ../box-office/admin.class.php:100
+msgid ""
+"The order has never received a payment, but it also has a zero balance, so "
+"it does not need one."
+msgstr ""
+
+#: ../box-office/admin.class.php:102
+msgid ""
+"No payment has been received for this order, but the order has a status that "
+"does not require one currently."
+msgstr ""
+
+#: ../box-office/admin.class.php:109 ../box-office/admin.class.php:133
+msgid "Accept Payment"
+msgstr ""
+
+#: ../box-office/admin.class.php:113
+msgid ""
+"Payment cannot be accepted while the order is in this status. Please change "
+"the status to On-Hold or Pending Payment to enable this feature."
+msgstr ""
+
+#: ../box-office/admin.class.php:124
+msgid ""
+"You have made changes to this order. Before you can take a payment, you must "
+"save those changes."
+msgstr ""
+
+#: ../box-office/admin.class.php:132
+msgid "Close"
+msgstr ""
+
+#: ../box-office/admin.class.php:162
+msgid ""
+"Sorry your request could not be processed. Try refreshing the page, and "
+"attempting it again."
+msgstr ""
+
+#: ../box-office/admin.class.php:174 ../box-office/admin.class.php:194
+#: ../box-office/admin.class.php:240
+msgid "Sorry you do not have permission to perform that action."
+msgstr ""
+
+#: ../box-office/admin.class.php:247
+msgid "Sorry the selected payment method is not available."
+msgstr ""
+
+#: ../box-office/admin.class.php:373
+msgid "is a required field."
+msgstr ""
+
+#: ../box-office/admin.class.php:386
+msgid "Please enter a valid postcode/ZIP."
+msgstr ""
+
+#: ../box-office/admin.class.php:395
+msgid "is not a valid phone number."
+msgstr ""
+
+#: ../box-office/admin.class.php:401
+msgid "is not a valid email address."
+msgstr ""
+
+#: ../box-office/admin.class.php:419
+msgid "is not valid. Please enter one of the following:"
+msgstr ""
+
+#: ../box-office/audit.class.php:218
+msgid "Audit Trail"
+msgstr ""
+
+#: ../box-office/audit.class.php:245
+msgid "#"
+msgstr ""
+
+#: ../box-office/audit.class.php:246
+msgid "When"
+msgstr ""
+
+#: ../box-office/audit.class.php:247
+msgid "Who"
+msgstr ""
+
+#: ../box-office/audit.class.php:248
+msgid "Msg"
+msgstr ""
+
+#: ../box-office/audit.class.php:274
+msgid "There are currently no audit trail items to display."
+msgstr ""
+
+#: ../box-office/audit.class.php:340
+msgid "&laquo; Prev"
+msgstr ""
+
+#: ../box-office/audit.class.php:352
+msgid "Next &raquo;"
+msgstr ""
+
+#: ../box-office/audit.class.php:392 ../box-office/audit.class.php:1168
+msgid "(guest)"
+msgstr ""
+
+#: ../box-office/audit.class.php:414
+#, php-format
+msgid "Order #%1$s was viewed."
+msgstr ""
+
+#: ../box-office/audit.class.php:421
+#, php-format
+msgid ""
+"Added %1$s x %2$s items (#%3$s), for a total of %4$s (discounted from %5$s), "
+"to order %6$s."
+msgstr ""
+
+#: ../box-office/audit.class.php:428
+#, php-format
+msgid "New order #%1$s."
+msgstr ""
+
+#: ../box-office/audit.class.php:435
+#, php-format
+msgid "Updated order #%1$s."
+msgstr ""
+
+#: ../box-office/audit.class.php:443
+#, php-format
+msgid "Changed order item %1$s (#%2$s)."
+msgstr ""
+
+#: ../box-office/audit.class.php:451
+#, php-format
+msgid ""
+"Completed a payment, using the %1$s payment gateway, for the amount of %2$s."
+msgstr ""
+
+#: ../box-office/audit.class.php:458
+#, php-format
+msgid ""
+"Payment was accepted in the admin, using the %1$s payment gateway, for the "
+"amount of %2$s."
+msgstr ""
+
+#: ../box-office/audit.class.php:1149
+msgid "n-j-y g:ia"
+msgstr ""
+
+#: ../box-office/audit.class.php:1150
+msgid "D, M jS, Y @ g:i:sa"
+msgstr ""
+
+#: ../box-office/audit.class.php:1174
+msgid "User #"
+msgstr ""
+
+#: ../box-office/audit.class.php:1188
+msgid "(removed user)"
+msgstr ""
+
+#: ../box-office/core.class.php:75
+msgid "Box Office"
+msgstr ""
+
+#: ../box-office/core.class.php:107
+msgid "Box Office Manager"
+msgstr ""
+
+#: ../box-office/core.class.php:136
+msgid "Content Manager"
+msgstr ""
+
+#: ../box-office/gateways/inhouse-cash.gateway.php:26
+msgid "Inhouse Cash"
+msgstr ""
+
+#: ../box-office/gateways/inhouse-cash.gateway.php:53
+#: ../box-office/gateways/inhouse-check.gateway.php:53
+#: ../box-office/gateways/inhouse-other.gateway.php:53
+msgid "Enable/Disable"
+msgstr ""
+
+#: ../box-office/gateways/inhouse-cash.gateway.php:54
+#: ../box-office/gateways/inhouse-check.gateway.php:54
+#: ../box-office/gateways/inhouse-other.gateway.php:54
+#, php-format
+msgid "Enable %s"
+msgstr ""
+
+#: ../box-office/gateways/inhouse-cash.gateway.php:60
+#: ../box-office/gateways/inhouse-check.gateway.php:60
+#: ../box-office/gateways/inhouse-other.gateway.php:60
+msgid "Title"
+msgstr ""
+
+#: ../box-office/gateways/inhouse-cash.gateway.php:62
+#: ../box-office/gateways/inhouse-check.gateway.php:62
+#: ../box-office/gateways/inhouse-other.gateway.php:62
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: ../box-office/gateways/inhouse-cash.gateway.php:63
+#: ../box-office/gateways/inhouse-check.gateway.php:63
+#: ../box-office/gateways/inhouse-other.gateway.php:63
+#, php-format
+msgid "%s Payment"
+msgstr ""
+
+#: ../box-office/gateways/inhouse-cash.gateway.php:66
+#: ../box-office/gateways/inhouse-check.gateway.php:66
+#: ../box-office/gateways/inhouse-other.gateway.php:66
+msgid "Description"
+msgstr ""
+
+#: ../box-office/gateways/inhouse-cash.gateway.php:68
+#: ../box-office/gateways/inhouse-check.gateway.php:68
+#: ../box-office/gateways/inhouse-other.gateway.php:68
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: ../box-office/gateways/inhouse-cash.gateway.php:69
+msgid "End user comes in the box office with a cash payment."
+msgstr ""
+
+#: ../box-office/gateways/inhouse-cash.gateway.php:81
+msgid "Allows admin users to accept cash payments via the inhouse box office."
+msgstr ""
+
+#: ../box-office/gateways/inhouse-cash.gateway.php:100
+#: ../box-office/gateways/inhouse-check.gateway.php:118
+#: ../box-office/gateways/inhouse-other.gateway.php:118
+msgid " - payment complete | made by user: "
+msgstr ""
+
+#: ../box-office/gateways/inhouse-cash.gateway.php:117
+#: ../box-office/gateways/inhouse-check.gateway.php:135
+#: ../box-office/gateways/inhouse-other.gateway.php:135
+msgid " - payment FAILED | attempted by user: "
+msgstr ""
+
+#: ../box-office/gateways/inhouse-cash.gateway.php:117
+#: ../box-office/gateways/inhouse-check.gateway.php:135
+#: ../box-office/gateways/inhouse-other.gateway.php:135
+msgid "(no user)"
+msgstr ""
+
+#: ../box-office/gateways/inhouse-cash.gateway.php:120
+#: ../box-office/gateways/inhouse-check.gateway.php:138
+#: ../box-office/gateways/inhouse-other.gateway.php:138
+msgid "Payment error: User does not have access to this payment type."
+msgstr ""
+
+#: ../box-office/gateways/inhouse-cash.gateway.php:135
+#: ../box-office/gateways/inhouse-check.gateway.php:175
+#: ../box-office/gateways/inhouse-other.gateway.php:174
+msgid "Thank you for your order."
+msgstr ""
+
+#: ../box-office/gateways/inhouse-check.gateway.php:26
+msgid "Inhouse Check"
+msgstr ""
+
+#: ../box-office/gateways/inhouse-check.gateway.php:69
+msgid "End user comes in the box office with a check payment."
+msgstr ""
+
+#: ../box-office/gateways/inhouse-check.gateway.php:83
+msgid "Check Info"
+msgstr ""
+
+#: ../box-office/gateways/inhouse-check.gateway.php:99
+msgid "Allows admin users to accept check payments via the inhouse box office."
+msgstr ""
+
+#: ../box-office/gateways/inhouse-check.gateway.php:153
+#, php-format
+msgid "You must fill out the check info field. %s Payment Failed."
+msgstr ""
+
+#: ../box-office/gateways/inhouse-other.gateway.php:26
+msgid "Inhouse Other"
+msgstr ""
+
+#: ../box-office/gateways/inhouse-other.gateway.php:69
+msgid ""
+"End user comes in the box office with a payment that is not covered by any "
+"other payment types."
+msgstr ""
+
+#: ../box-office/gateways/inhouse-other.gateway.php:83
+msgid "Payment Info"
+msgstr ""
+
+#: ../box-office/gateways/inhouse-other.gateway.php:99
+msgid ""
+"Allows admin users to accept payments, not covered by other payment types, "
+"via the inhouse box office."
+msgstr ""
+
+#: ../box-office/gateways/inhouse-other.gateway.php:153
+#, php-format
+msgid "You must fill out the payment info field. %s Payment Failed."
+msgstr ""

@@ -1,0 +1,67 @@
+.qsot-bo-accept-payment .wc-backbone-modal-main { padding-bottom:0 !important; }
+.qsot-bo-accept-payment .wc-backbone-modal-main article { display:block; overflow:auto !important; }
+.qsot-bo-accept-payment .wc-backbone-modal-main article h2 { margin-top:0.25em; padding-bottom:0.6em }
+.qsot-bo-accept-payment .wc-backbone-modal-main article div,
+.qsot-bo-accept-payment .wc-backbone-modal-main article form { margin-bottom:1em !important; }
+.qsot-bo-accept-payment.wc-backbone-modal .wc-backbone-modal-content { max-width:100%; width:650px; }
+
+.qsot-bo-accept-payment .errors { border:1px solid #800; color:#800; background-color:#fee; font-style:italic; padding:0.8em; margin-bottom:1em; }
+.qsot-bo-accept-payment .errors .err + .err { padding-top:0.5em; }
+
+.qsot-bo-accept-payment #payment { border:1px solid #888; padding:0.8em; background-color:#e8e8e8; }
+.qsot-bo-accept-payment #payment .methods li .payment_box { padding:0 0.8em; }
+.qsot-bo-accept-payment #payment .methods li .payment_box p { margin-top:0.4em; }
+.qsot-bo-accept-payment #payment .payment_method_paypal img { height:auto; max-width:100%; max-height:30px; vertical-align:middle; margin:-5px 1em -5px .5em; position:relative; }
+.qsot-bo-accept-payment input[type=radio]:checked:before { margin:5px; }
+
+.qsot-bo-accept-payment #order_review { width:100%; }
+.qsot-bo-accept-payment #order_review .shop_table { width:100%; border-width:0 1px; border-style:none solid; border-spacing:0; margin-bottom:1em; }
+
+.qsot-bo-accept-payment #order_review .shop_table th,
+.qsot-bo-accept-payment #order_review .shop_table td { border-width:0 0 1px 1px; border-style:none none solid solid; padding:0.5em; text-align:left; }
+.qsot-bo-accept-payment #order_review .shop_table th:first-child,
+.qsot-bo-accept-payment #order_review .shop_table td:first-child { border-left-width:0; }
+.qsot-bo-accept-payment #order_review .shop_table thead th { border-bottom:1px solid transparent; border-top:1px solid transparent; background-color:#f0f0f0; font-weight:bold; }
+.qsot-bo-accept-payment #order_review .shop_table tfoot th { font-weight:700; font-style:italic; background-color:#f8f8f8; }
+.qsot-bo-accept-payment #order_review .shop_table tfoot td { font-weight:500; background-color:#f8f8f8; }
+
+.qsot-bo-accept-payment #order_review .shop_table,
+.qsot-bo-accept-payment #order_review table.shop_table th,
+.qsot-bo-accept-payment #order_review .shop_table td { border-color:#ccc; }
+
+
+#qsot-admin-payment .unchanged { display:none; }
+#qsot-admin-payment .changed { display:none; color:#800; }
+#qsot-admin-payment .inside { position:relative; }
+
+#qsot-admin-payment .unchanged .last { margin:1em 0 0.8em; }
+#qsot-admin-payment .unchanged .bad { font-weight:bold; font-style:italic; color:#a00; padding:0.5em; border:1px solid #800; background-color:#fee; }
+#qsot-admin-payment .unchanged .good { font-weight:normal; color:#008; padding:0.5em; border:1px solid #008; background-color:#eef; }
+#qsot-admin-payment .unchanged .extra { padding-top:0.4em; text-align:right; }
+#qsot-admin-payment .unchanged .extra a { color:#777; }
+
+.qsot-bo-loaded #qsot-admin-payment .loading { display:none; }
+.qsot-bo-loaded #qsot-admin-payment .unchanged { display:block; }
+.qsot-bo-has-changed #qsot-admin-payment .changed { display:block; }
+.qsot-bo-has-changed #qsot-admin-payment .unchanged { display:none; }
+
+
+#poststuff #qsot-audit-trail > .inside { padding:0; margin:0; }
+#qsot-audit-trail .qsot-audit-trail { width:100%; border-top:1px solid #ccc; }
+#qsot-audit-trail .qsot-audit-trail th { background-color:#f0f0f0; color:#333; font-weight:bold; border-left:1px solid #e5e5e5; border-bottom:1px solid #ccc; padding:0.5em; font-size:13px; text-align:left; vertical-align:top; }
+#qsot-audit-trail .qsot-audit-trail th:first-child { border-left:0 none; }
+#qsot-audit-trail .qsot-audit-trail td { color:#333; border-left:1px solid #e5e5e5; border-bottom:1px solid #d4d4d4; padding:0.5em; font-size:11px; vertical-align:top; }
+#qsot-audit-trail .qsot-audit-trail td:first-child { border-left:0 none; }
+#qsot-audit-trail .qsot-audit-trail tr.alt { background-color:#fafafa; }
+#qsot-audit-trail .qsot-audit-trail tr:hover td { background-color:#f6f6f9; }
+
+#qsot-audit-trail .qsot-audit-trail .index { width:5%; text-align:center; }
+#qsot-audit-trail .qsot-audit-trail .when { width:15%; }
+#qsot-audit-trail .qsot-audit-trail .who { width:10%; }
+
+#qsot-audit-trail .qsot-audit-trail .stats { padding:0.2em 1em; font-size:8px; color:#888; text-align:right; }
+
+#qsot-audit-trail .pagination { padding:0.8em; font-size:12px; }
+#qsot-audit-trail .pagination .page-link { padding:0 0.4em; line-height:1.5em; border:1px solid #aaa; margin-right:2px; }
+#qsot-audit-trail .pagination a.page-link:hover,
+#qsot-audit-trail .pagination a.page-link:active { background-color:#eee; border-color:#0091cd; color:#0091cd; }

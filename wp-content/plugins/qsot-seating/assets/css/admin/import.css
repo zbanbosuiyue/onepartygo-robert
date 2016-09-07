@@ -1,0 +1,8 @@
+.qsot-seating-form .fields { border:2px solid #ccc; padding:1em; margin:1em 0; }
+.qsot-seating-form .actions,
+.qsot-seating-form .field { padding-top:1em; }
+.qsot-seating-form .field:first-child { padding-top:0; }
+.qsot-seating-form .field label { display:block; font-size:1.3em; font-weight:700; font-style:italic; margin-bottom:0.4em; }
+
+.qsot-seating-form .upload-btn { vertical-align:middle; }
+.qsot-seating-form .helper { font-size:0.7em; font-style:italic; color:#888; }

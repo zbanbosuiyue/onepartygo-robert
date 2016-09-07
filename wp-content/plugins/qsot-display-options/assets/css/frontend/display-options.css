@@ -1,0 +1,21 @@
+article ul.event-list,
+article ul.event-list li,
+ul.event-list,
+ul.event-list li { list-style:outside none none; margin:0; padding:0; border:0; }
+article ul.event-list li,
+ul.event-list li { margin:0; padding:1em 0; border-top:1px dotted #ccc; }
+article ul.event-list li:first-child,
+ul.event-list li:first-child { padding-top:0; border-top:0 none; }
+ul.event-list .event-thumb { float:left; max-width:50%; padding:0 1em 0 0; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -ms-box-sizing:border-box; box-sizing:border-box; }
+ul.event-list img { width:auto; height:auto; margin:0; max-width:100%; }
+ul.event-list .event-meta { font-size:0.8em; margin-bottom:0.8em; }
+
+.widget h3.event-title,
+.entry h3.event-title,
+.hentry h3.event-title,
+.entry-content h3.event-title,
+h3.event-title { clear:none; margin-top:0; }
+
+table.event-table { width:100%; }
+table.event-table .event-thumb { float:left; }
+table.event-table img { width:auto; height:auto; max-width:50px; margin:0 0.5em 0 0; }

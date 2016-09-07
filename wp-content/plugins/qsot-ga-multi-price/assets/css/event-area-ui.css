@@ -1,0 +1,46 @@
+.venue-event-area-admin .area-list .item .label { font-style:italic; }
+
+.edit-area .two-columns .column { width:100%; float:none; }
+.edit-area .two-columns .column .inner { border:1px solid #cccccc; padding:1em; }
+.edit-area .two-columns .column .colhead { text-decoration:underline; margin-bottom:0.5em; }
+.edit-area .two-columns.no-deco .column .inner { border:0 none; padding:0; }
+
+.edit-area .price-structs li { line-height:1.3em; padding-top:0.8em; margin:0; }
+.edit-area .price-structs li:first-child { padding-top:0; }
+.edit-area .price-structs li .struct-name { font-style:italic; }
+
+.edit-area .edit-struct-form { display:none; }
+.edit-area .edit-struct-form.show { display:block; }
+.edit-area .edit-struct-form.show ul { margin:0; }
+.edit-area .edit-struct-form .price-list { border:1px solid #d8d8d8; height:150px; overflow-y:scroll; }
+.edit-area .edit-struct-form .price-list li { margin:0; padding:0.7em; background-color:#f4f4f4; border-bottom:1px dotted #d8d8d8; }
+.edit-area .edit-struct-form .price-list li:hover { background-color:#D1E1FC; }
+.edit-area .edit-struct-form .price-list.available-prices li { cursor:n-resize; }
+.edit-area .edit-struct-form .price-list.use-prices li { cursor:s-resize; }
+
+.edit-area .icon { text-indent:-9999em; margin:0 0 0 0.5em; height:1em; width:1em; display:inline-block; position:relative; }
+.edit-area .icon:before { color:#999; font-family:WooCommerce; font-weight:400; height:100%; left:0; top:0; line-height:1; position:absolute; text-align:center; text-transform:none;
+		text-indent:0; font-variant:normal; }
+.edit-area .icon.edit-struct:before { content:"\e603"; }
+.edit-area .icon.remove-struct:before { content:"\e001";content:"\e013"; }
+
+@media only screen and (min-width:768px) {
+	.edit-area .two-columns { padding:0.5em 0; }
+	.edit-area .two-columns .column { float:left; clear:none; width:50%; }
+	.edit-area .two-columns .column.left { width:auto; min-width:25%; max-width:50%; }
+	.edit-area .two-columns .column.left > .inner-wrap { padding:0 1em 0 0; }
+	.edit-area .two-columns .column.right > .inner-wrap { padding:0 0 0 1em; border-left:1px dotted #bbbbbb; }
+	.edit-area .two-columns.no-deco .column { width:100%; float:none; max-width:none; padding-top:1em; }
+	.edit-area .two-columns.no-deco .column:first-child { padding-top:0; }
+	.edit-area .two-columns.no-deco .column.right > .inner-wrap { border-left:0 none; padding-left:0; }
+	.edit-area .two-columns.no-deco .column.left > .inner-wrap { padding-right:0; }
+}
+
+@media only screen and (min-width:1250px) {
+	.edit-area .two-columns.no-deco .column.left { width:50%; }
+	.edit-area .two-columns.no-deco .column { width:50%; float:left; padding-top:0; }
+	.edit-area .two-columns.no-deco .column.right > .inner-wrap { border-left:1px dotted #bbbbbb; padding-left:1em; }
+	.edit-area .two-columns.no-deco .column.left > .inner-wrap { padding-right:1em; }
+	.edit-area .edit-struct-form .price-list.available-prices li { cursor:w-resize; }
+	.edit-area .edit-struct-form .price-list.use-prices li { cursor:e-resize; }
+}

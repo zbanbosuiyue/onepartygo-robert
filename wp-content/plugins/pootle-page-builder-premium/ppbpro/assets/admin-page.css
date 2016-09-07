@@ -1,0 +1,10 @@
+/**
+ * Plugin options page styles
+ *
+ * @package Pootle_Page_Builder_Pro
+ * @developer shramee <shramee.srivastav@gmail.com>
+ */
+
+.ppb-modules-wrap .ppb-modules.modules-pro:after {
+	display: none;
+}
